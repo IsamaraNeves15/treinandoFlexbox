@@ -1,0 +1,52 @@
+body {
+  margin: 0 auto;
+  box-sizing: content-box;
+  height: 530px;
+  width: 60%;
+}
+
+header {
+  background-color: rgb(167, 167, 237);
+  height: 20%;
+}
+
+h2, h3 {
+  color: white;
+  text-align: center;
+}
+
+main {
+  height: 70%;
+  margin: 10px 60px;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  background-color: rgb(115, 178, 115);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.item{
+  background-color: green;
+  padding: 20px;
+  margin: 10px;
+}
+
+.sidebar {
+  background-color: red;
+  width: 30%;
+  margin: 0, 20px;
+  margin-left: 20px;
+}
+
+footer{
+  background-color: blue;
+  height: 20%;
+}
